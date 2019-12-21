@@ -24,7 +24,7 @@ module.exports = {
             ],
         }
     },
-    base: '/',
+    base: './',
     dest: './dist',
     configureWebpack: {
         resolve: {
