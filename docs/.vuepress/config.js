@@ -1,6 +1,9 @@
 module.exports = {
     title: '一条放了盐的鱼',
     description: '前端笔记|前端博客|静态博客网站',
+    head: [
+        ['link', { rel: 'icon', href: 'http://chenchunyang123.coding.me/ico/fish.ico' }]
+    ],
     themeConfig: {
         nav: [
             { text: '主页', link: '/' },
@@ -24,7 +27,7 @@ module.exports = {
             ],
         }
     },
-    base: './',
+    base: '/notes/dist/',
     dest: './dist',
     configureWebpack: {
         resolve: {
