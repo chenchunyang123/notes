@@ -25,6 +25,7 @@ module.exports = {
         }
     },
     base: '/',
+    dest: './dist',
     configureWebpack: {
         resolve: {
             alias: {
