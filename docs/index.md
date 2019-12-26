@@ -1,10 +1,10 @@
 ---
 home: true
-heroImage: /hero.png
-heroText: 前端笔记
-tagline: welcome~
-actionText: 开始探索 →
-actionLink: /react/开始
+heroImage: https://i.loli.net/2019/12/26/hWRpvi9zaANMm73.jpg
+heroText: 大前端笔记
+tagline: 一个记录学习笔记的地方，喜欢尝试新事物~
+actionText: 找个位置随便坐 →
+actionLink: /react/
 # features:
 # - title: 简洁至上
 #   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
