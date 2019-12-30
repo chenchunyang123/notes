@@ -6,9 +6,9 @@ module.exports = {
     ],
     themeConfig: {
         themeConfig: {
-            lastUpdated: 'Last Updated',
+            lastUpdated: '上次更新',
         },
-        nav: [  
+        nav: [
             { text: '主页', link: '/' },
             {
                 text: '新笔记',
