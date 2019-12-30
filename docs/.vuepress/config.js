@@ -5,7 +5,10 @@ module.exports = {
         ['link', { rel: 'icon', href: 'http://chenchunyang123.coding.me/ico/fish.ico' }]
     ],
     themeConfig: {
-        nav: [
+        themeConfig: {
+            lastUpdated: 'Last Updated',
+        },
+        nav: [  
             { text: '主页', link: '/' },
             {
                 text: '新笔记',
