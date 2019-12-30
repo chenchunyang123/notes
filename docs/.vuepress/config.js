@@ -5,9 +5,7 @@ module.exports = {
         ['link', { rel: 'icon', href: 'http://chenchunyang123.coding.me/ico/fish.ico' }]
     ],
     themeConfig: {
-        themeConfig: {
-            lastUpdated: '上次更新',
-        },
+        lastUpdated: '上次更新',
         nav: [
             { text: '主页', link: '/' },
             {
