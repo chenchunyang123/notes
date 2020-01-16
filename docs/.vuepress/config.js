@@ -9,22 +9,24 @@ module.exports = {
         nav: [
             { text: '主页', link: '/' },
             {
-                text: '新笔记',
+                text: '分类',
                 items: [
-                    {
-                        text: '前端', items: [
-                            { text: 'react', link: '/react/' },
-                            { text: 'vue', link: '1' }
-                        ]
-                    },
-                    {
-                        text: '后端', items: [
-                            { text: 'node', link: '1' },
-                            { text: 'koa', link: '1' }
-                        ]
-                    },
+                    // {
+                    //     text: '前端', items: [
+                    //         { text: 'react', link: '/react/' },
+                    //         { text: 'vue', link: '1' }
+                    //     ]
+                    // },
+                    // {
+                    //     text: '后端', items: [
+                    //         { text: 'node', link: '1' },
+                    //         { text: 'koa', link: '1' }
+                    //     ]
+                    // },
+                    {text: '待完善', link: '/wait'}
                 ]
             },
+            { text: '前端书籍', link: '/books/' },
             { text: '有道云笔记', link: '/youdaoNotes/' },
             { text: '更新日志', link: '/logs/' },
             { text: '我的博客', link: 'http://chenchunyang.site/' },
