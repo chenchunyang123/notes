@@ -2,7 +2,7 @@ module.exports = {
     title: '一条放了盐的鱼',
     description: '大前端笔记|前端博客|静态博客网站',
     head: [
-        ['link', { rel: 'icon', href: 'http://chenchunyang123.coding.me/ico/fish.ico' }]
+        ['link', { rel: 'icon', href: 'http://k3867d.coding-pages.com/fish.ico' }]
     ],
     themeConfig: {
         lastUpdated: '上次更新',
@@ -251,8 +251,8 @@ module.exports = {
             ],
         }
     },
-    base: '/notes/dist/',
-    dest: './dist',
+    base: '/dist/',
+    dest: './dist', // 输出目录
     configureWebpack: {
         resolve: {
             alias: {
