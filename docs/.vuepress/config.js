@@ -78,7 +78,6 @@ module.exports = {
                         'models/03',
                         'models/04',
                         'models/05',
-                        'models/06',
                     ]
                 },
                 {
