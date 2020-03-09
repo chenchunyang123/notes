@@ -97,7 +97,6 @@ module.exports = {
                         'js-basic/12',
                         'js-basic/13',
                         'js-basic/14',
-                        'js-basic/15',
                     ]
                 },
                 {
