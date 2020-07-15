@@ -26,7 +26,12 @@ module.exports = {
                     {text: '待完善', link: '/wait'}
                 ]
             },
-            { text: '前端书籍', link: '/books/' },
+            {
+              text: '前端书籍笔记',
+              items: [
+                  {text: 'js高级程序设计(第三版)', link: '/books/Professional-JavaScript/01/01'}
+              ]
+          },
             { text: '有道云笔记', link: '/youdaoNotes/' },
             { text: '更新日志', link: '/logs/' },
             { text: '我的博客', link: 'http://chenchunyang.site/' },
@@ -248,6 +253,187 @@ module.exports = {
                     ]
                 },
             ],
+            '/books/Professional-JavaScript/': [
+              {
+                title: '一、js简介',   // 必要的
+                collapsable: true, // 可选的, 默认值是 true,
+                children: [
+                    '01/01',
+                ]
+              },  
+              {
+                title: '二、在HTMl中使用js',
+                children: [
+                    '02/01',
+                    '02/02',
+                    '02/03'
+                ]
+              },
+              {
+                title: '三、基本概念',
+                children: [
+                    '03/01',
+                    '03/02',
+                    '03/03',
+                    '03/04',
+                    '03/05',
+                ]
+              },
+              {
+                title: '四、变量、作用域和内存',
+                children: [
+                    'html/01',
+                    'html/02',
+                ]
+              },
+              // {
+              //   title: '五、引用类型',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '六、面向对象的程序设计',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '七、函数表达式',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '八、BOM',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '九、客户端检测',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '十、DOM',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '十一、DOM扩展',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '十二、DOM2和DOM3',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '十三、事件',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '十四、表单脚本',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '十五、使用canvas绘图',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '十六、HTML5脚本编程',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '十七、错误处理与调试',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '十八、JS和XML',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '十九、E4X',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '二十、JSON',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '二十一、Ajax和Comet',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '二十二、高级技巧',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '二十三、离线应用与客户端存储',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '二十四、最佳实践',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // },
+              // {
+              //   title: '二十五、新兴的API',
+              //   children: [
+              //       'html/01',
+              //       'html/02',
+              //   ]
+              // }
+            ]
         }
     },
     base: '/dist/',
