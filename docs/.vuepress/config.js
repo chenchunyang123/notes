@@ -284,8 +284,8 @@ module.exports = {
               {
                 title: '四、变量、作用域和内存',
                 children: [
-                    'html/01',
-                    'html/02',
+                    '04/01',
+                    '04/02',
                 ]
               },
               // {
